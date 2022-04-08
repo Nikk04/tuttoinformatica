@@ -1,8 +1,9 @@
 
   
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
+
   <title>Nikk04</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,20 +17,22 @@
     line-height: 1.8;
     color: #f5f6f7;
   }
-
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
   .bg-1 { 
-background-image: linear-gradient(180deg, #ff6aff 0, #ff67ff 12.5%, #ff63ff 25%, #ed5cff 37.5%, #bc53f2 50%, #8c49db 62.5%, #5f40c5 75%, #2d38b0 87.5%, #00329e 100%);
+    background-color: #24035a; /* Green */
+    color: #ffffff;
   }
   .bg-2 { 
-background-image: linear-gradient(180deg, #ff6aff 0, #ff67ff 12.5%, #ff63ff 25%, #ed5cff 37.5%, #bc53f2 50%, #8c49db 62.5%, #5f40c5 75%, #2d38b0 87.5%, #00329e 100%);
+    background-color: #12c4ca; /* Dark Blue */
+    color: #ffffff;
   }
   .bg-3 { 
-   background-image: linear-gradient(180deg, #ff6aff 0, #ff67ff 12.5%, #ff63ff 25%, #ed5cff 37.5%, #bc53f2 50%, #8c49db 62.5%, #5f40c5 75%, #2d38b0 87.5%, #00329e 100%);
+    background-color: #ffffff; /* White */
     color: #555555;
   }
   .bg-4 { 
-   font: 20px Montserrat, sans-serif;
-   background-image: linear-gradient(180deg, #ff6aff 0, #ff67ff 12.5%, #ff63ff 25%, #ed5cff 37.5%, #bc53f2 50%, #8c49db 62.5%, #5f40c5 75%, #2d38b0 87.5%, #00329e 100%);
+    background-color: #000000; /* Black Gray */
     color: #fff;
   }
   .container-fluid {
@@ -48,53 +51,11 @@ background-image: linear-gradient(180deg, #ff6aff 0, #ff67ff 12.5%, #ff63ff 25%,
   .navbar-nav  li a:hover {
     color: #334a74 !important;
   }
-    it {
-  font-size: 72px;
-  background-image: linear-gradient(180deg, #ffff7c 0, #ffff6f 12.5%, #fff565 25%, #ffda5c 37.5%, #f2bd53 50%, #dda14c 62.5%, #c98a46 75%, #b77642 87.5%, #a8663f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.button {
-  background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.Python {
-  background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
-  border: 2px solid #4CAF50;
-}
-
-.C++ {
-background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%); 
-  border: 2px solid #008CBA;
-}
-
-.bLinux {
- background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%); 
-  border: 2px solid #f44336;
-}
-
-.Html{
-background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
-  border: 2px solid #e7e7e7;
-}
-
-.Js {
- background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
-  border: 2px solid #555555;
-}
-         
   </style>
 </head>
 <body>
+
+<!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -107,48 +68,54 @@ background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-  
-<button class="button button1">Python</button>
-<button class="button button2">C++</button>
-<button class="button button3">Linux</button>
-<button class="button button4">Html</button>
-<button class="button button4">Js</button>
-    
+       
+        <li><a href="#" >Linux</a></li>
+        <li><a href="#" >Novità canale</a></li>
+        <li><a href="#" >Python</a></li>
+        
       </ul>
     </div>
   </div>
 </nav>
+
+<!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <strong><it class="margin">Chi sono?</it></strong>
-  <img src="Benvenuto.png" class="img-responsive img-rectangle margin" style="display:inline" alt="Bird" width=auto height=auto>
-  <h3>In questo Canale voglio portarvi, quella che è un pò la programmazione, la Cyber Sicurezza e l'informatica in generale. Vedremo tanti tutorial sui vari linguaggi di programmazione tra cui Python, Kotlin, Javascript, C# e il linguaggio html e css. La Sicurezza in rete è molto importante ai giorni d'oggi, per questo porterò video su questo argomento, così da insegnarvi le basi della sicurezza, come creare una password sicura, come riconoscere un attacco informatico e come capire se  il proprio computer è infetto da virus.</h3>
-</div>
-<div class="container-fluid bg-2 text-center">
   <h3 class="margin">Chi sono?</h3>
-  <p>Studente, programmatore, youtuber, esperto di sicurezza informatica, web designer!!!! </p>
+  <img src="Benvenuto.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width=auto height=auto>
+  <h3>In questo Canale voglio portarvi, quella che è un pò la programmazione, la Cyber Sicurezza e l'informatica in generale. Vedremo tanti tutorial sui vari linguaggi di programmazione tra cui Python, Kotlin, Javascript, C# e il linguaggio html e css. La Sicurezza in rete è molto importante ai giorni d'oggi, per questo porterò video su questo argomento, così da insegnarvi le basi della sicurezza, come creare una password sicura, come riconoscere un attacco Phishing e come capire se  il proprio computer è infetto da virus.</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
   <a href="#" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> Search
   </a>
 </div>
+
+<!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
   <h3 class="margin">Perchè imparare a programmare?</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <p><em><strong>1. Puoi lavorare da casa </strong></em></p>
+      <p><it><strong>1. Puoi lavorare da casa </strong></it></p>
       <<img src="ovunque.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
     </div>
     <div class="col-sm-4"> 
-      <p><em><strong>2. Puoi lavorare su progetti uno completamente diverso dall'altro</strong></em></p>
+      <p><it><strong>2. Puoi lavorare su progetti uno completamente diverso dall'altro</strong></it></p>
       <img src="progetti.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
     </div>
     <div class="col-sm-4"> 
-      <p><em><strong>3. Guadagni bene</strong></em></p>
+      <p><it><strong>3. Guadagni bene</strong></it></p>
       <img src="soldi.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
     </div>
   </div>
 </div>
+
+<!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Iscriviti al mio canale youtube <a href="https://www.youtube.com/c/nikk04">Nikk04</a></p> 
+  <p>Iscriviti al mio canalke youtube <a href="https://www.youtube.com/c/nikk04">Nikk04</a></p> 
 </footer>
 
 </body>
