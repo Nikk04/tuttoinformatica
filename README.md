@@ -1,2 +1,2 @@
 # informatica
-## sito web creato appsitamente per portare i contenuti porto sul mio canale youtube
+## sito web creato appositamente per portare i contenuti porto sul mio canale youtube
